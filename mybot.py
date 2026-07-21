@@ -19,7 +19,7 @@ TOKEN = '8870524240:AAE1Ih0LhDEDcWXGs1hICNKx-VTojI73iqY'
 bot = telebot.TeleBot(TOKEN)
 
 # ដាក់ Link Channel របស់អ្នកនៅទីនេះ
-CHANNEL_LINK = "https://t.me/YourChannelName"
+CHANNEL_LINK = "https://t.me/only_study_shadow"
 CHANNEL_NAME = "📢 ចូលរួម Channel ដើម្បីទទួលបានវីដេអូថ្មីៗ!"
 
 # --- សារស្វាគមន៍ ---
