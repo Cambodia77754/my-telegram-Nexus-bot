@@ -19,7 +19,7 @@ TOKEN = '8870524240:AAE1Ih0LhDEDcWXGs1hICNKx-VTojI73iqY'
 bot = telebot.TeleBot(TOKEN)
 
 # ដាក់ Link Channel របស់អ្នកនៅទីនេះ
-CHANNEL_LINK = "https://t.me/only_study_shadow"
+CHANNEL_LINK = "https://t.me/YourChannelName"
 CHANNEL_NAME = "📢 ចូលរួម Channel ដើម្បីទទួលបានវីដេអូថ្មីៗ!"
 
 # --- សារស្វាគមន៍ ---
@@ -78,7 +78,7 @@ def get_link(message):
         bot.delete_message(chat_id=message.chat.id, message_id=msg.message_id)
 
     except Exception as e:
-        bot.edit_message_text(chat_id=message.chat.id, message_id=msg.message_id, text=f"❌ មានបញ្ហាក្នុងการទាញយក (លីងប្រហែលជាត្រូវបានដាក់កម្រិត ឬឯកជន)៖ {str(e)}")
+        bot.edit_message_text(chat_id=message.chat.id, message_id=msg.message_id, text=f"❌ មានបញ្ហាក្នុងការទាញយក (លីងប្រហែលជាត្រូវបានដាក់កម្រិត ឬឯកជន)៖ {str(e)}")
 
 if __name__ == "__main__":
     keep_alive()
